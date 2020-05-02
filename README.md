@@ -18,9 +18,50 @@ composer require the-bug-software/data-gov-ro
 
 ## Usage
 
+#### Packages
+
 ``` php
-// TODO
+use TheBugSoftware\DataGovRo\DataGovRo;
+
+// 1. List Packages
+$packages = DataGovRo::packages()->list();
+
+// ------------------------------------------
+
+// 2. Show a package details
+$packages = DataGovRo::packages()->show($packageID);
+
+// 3. Get a list with all the recently updated packages
+$packages = DataGovRo::packages()->updated(); 
 ```
+
+#### Groups
+``` php
+use TheBugSoftware\DataGovRo\DataGovRo;
+
+// 1. List Groups
+$groups = DataGovRo::groups()->list();
+
+// ------------------------------------------
+
+// 2. Show group details
+$group = DataGovRo::groups()->show($groupID); 
+```
+
+#### Tags
+``` php
+use TheBugSoftware\DataGovRo\DataGovRo;
+
+// 1. List Tags
+$tags = DataGovRo::tags()->list();
+
+// ------------------------------------------
+
+// 2. Show tag details
+$tag = DataGovRo::tags()->show($packageID);
+```
+
+
 
 ### Testing
 
