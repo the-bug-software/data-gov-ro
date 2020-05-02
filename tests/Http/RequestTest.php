@@ -1,6 +1,6 @@
 <?php
 
-namespace TheBugSoftware\DataGovRo\Tests;
+namespace TheBugSoftware\DataGovRo\Tests\Http;
 
 use PHPUnit\Framework\TestCase;
 use TheBugSoftware\DataGovRo\Exceptions\RequestException;
