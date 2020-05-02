@@ -3,7 +3,6 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/the-bug-software/data-gov-ro.svg?style=flat-square)](https://packagist.org/packages/the-bug-software/data-gov-ro)
 [![Actions Status](https://github.com/the-bug-software/data-gov-ro/workflows/PHPUnit/badge.svg)](https://github.com/the-bug-software/data-gov-ro/actions)
 [![Quality Score](https://img.shields.io/scrutinizer/g/the-bug-software/data-gov-ro.svg?style=flat-square)](https://scrutinizer-ci.com/g/the-bug-software/data-gov-ro)
-[![Total Downloads](https://img.shields.io/packagist/dt/the-bug-software/data-gov-ro.svg?style=flat-square)](https://packagist.org/packages/the-bug-software/data-gov-ro)
 [![License](https://img.shields.io/packagist/l/thebugsoftware/stare-tva.svg?style=flat-square)](https://github.com/the-bug-software/data-gov-ro/blob/master/LICENSE.md)
 
 
@@ -20,7 +19,7 @@ composer require the-bug-software/data-gov-ro
 ## Usage
 
 ``` php
-//
+// TODO
 ```
 
 ### Testing
@@ -49,4 +48,3 @@ If you discover any security related issues, please email robert.chiribuc@thebug
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-ate.com).
