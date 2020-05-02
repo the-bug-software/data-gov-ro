@@ -1,0 +1,46 @@
+{
+    "name": "the-bug-software/data-gov-ro",
+    "description": "PHP library that allows programmatic access to open data sets delivered by the public administration authorities and institutions from Romania.",
+    "keywords": [
+        "the-bug-software",
+        "data-gov-ro"
+    ],
+    "homepage": "https://github.com/the-bug-software/data-gov-ro",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Robert-Cristian Chiribuc",
+            "email": "robert.chiribuc@thebug.ro",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "nunomaduro/collision": "^4.2",
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheBugSoftware\\DataGovRo\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TheBugSoftware\\DataGovRo\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
